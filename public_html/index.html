@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <h1 id="a">hej</h1>
+            <p id="b"></p>
+        </div>
+            
+    <script>
+        
+        var data = {a:"min rubrik",b:"mitt stycke"};
+        var dat1 = {a:"min nya rubrik",b:"mitt coola stycke"};
+        
+        fill(dat1);
+        
+        
+        function fill(content){
+            document.getElementById("a").innerHTML =content.a;
+            document.getElementById("b").innerHTML = content.b;
+           
+            console.log(content);
+        }
+        
+    </script>
+    </body>
+
+</html>
